@@ -1,15 +1,31 @@
 """
 Project Name : Rental Project
-Version: 1.0
+Version: 1.1
 Author : Eser SOLMAZ
 Date : 09.03.2020
+Changes 1.1;
+credit card number is encrypted and written to the database.
 """
 import pymysql
 from datetime import datetime,timedelta
 import re
+from cryptography.fernet import Fernet
 
 db = pymysql.connect(host='localhost',user = 'root',password = 'qwe123',db = 'rental',charset = 'utf8mb4',cursorclass = pymysql.cursors.DictCursor)
 baglanti = db.cursor()
+
+def write_key():
+    key = Fernet.generate_key()
+    with open("key.key", "wb") as key_file:
+        key_file.write(key)
+
+def load_key():
+    return open("key.key", "rb").read()
+
+write_key()
+key = load_key()
+f = Fernet(key)
+
 
 #Bisiklet ve Martı Kirlama için kullanıclan class dır.
 class kiralama():
@@ -129,10 +145,12 @@ if secim == ("B"):
             kksoyisim = input("Soyisim Giriniz: ")
             # CVV doğrulama
             while True:
-                kkno = input("Kredi kartı numarası giriniz(1234-1234-1234-1234) :")
-                if re.match('(\d{4}\-\d{4}\-\d{4}\-\d{4})', kkno):
+                kkno2 = input("Kredi kartı numarası giriniz(1234-1234-1234-1234) :".encode())
+                if re.match('(\d{4}\-\d{4}\-\d{4}\-\d{4})', kkno2):
                     break
                 print("redi kartı numarası 1234-1234-1234-1234 gibi olmalıdır. Lütfen tekrar deneyiniz.")
+            kkno3 = kkno2.encode()
+            kkno = f.encrypt(kkno3)
             kkgecerliliktarihi = input("AY/YIL olarak geçerlilik tarihi giriniz:")
             # CVV doğrulama
             while True:
@@ -156,10 +174,12 @@ elif secim == ("M"):
             kksoyisim = input("Soyisim Giriniz: ")
             # CVV doğrulama
             while True:
-                kkno = input("Kredi kartı numarası giriniz(1234-1234-1234-1234) :")
-                if re.match('(\d{4}\-\d{4}\-\d{4}\-\d{4})', kkno):
+                kkno2 = input("Kredi kartı numarası giriniz(1234-1234-1234-1234) :")
+                if re.match('(\d{4}\-\d{4}\-\d{4}\-\d{4})', kkno2):
                     break
                 print("redi kartı numarası 1234-1234-1234-1234 gibi olmalıdır. Lütfen tekrar deneyiniz.")
+            kkno3 = kkno2.encode()
+            kkno = f.encrypt(kkno3)
             kkgecerliliktarihi = input("AY/YIL olarak geçerlilik tarihi giriniz:")
             # CVV doğrulama
             while True:
