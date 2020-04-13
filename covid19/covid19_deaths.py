@@ -24,7 +24,7 @@ open("time_series_covid_19_deaths_global.csv", 'wb').write(myfile.content)
 db_truncate_table()
 
 # read csv file as a list of lists
-with open('/Users/user/PycharmProjects/CoronaVirus2/venv/time_series_covid_19_deaths_global.csv', 'r') as read_obj:
+with open('/Users/user/PycharmProjects/myfirstcode/time_series_covid_19_deaths_global.csv', 'r') as read_obj:
     # pass the file object to reader() to get the reader object
     csv_reader = reader(read_obj)
     # Pass reader object to list() to get a list of lists
