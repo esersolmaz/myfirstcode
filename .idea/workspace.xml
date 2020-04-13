@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1de052ba-8e8d-4db9-a768-9f449fd13151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid19_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_confirmed.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_confirmed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_deaths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_recovered.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_recovered.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_summary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +40,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.covid19_summary">
-    <configuration name="beden_kitle_endeksi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.covid19_recovered">
+    <configuration name="covid19_confirmed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myfirstcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,11 +49,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/beden_kitle_endeksi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_confirmed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="buyuk_sayi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="covid19_deaths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myfirstcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +70,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/buyuk_sayi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_deaths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="covid19_recovered" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myfirstcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_recovered.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19_summary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_summary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,34 +146,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="myfirstcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/vize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.covid19_recovered" />
+        <item itemvalue="Python.covid19_deaths" />
+        <item itemvalue="Python.covid19_confirmed" />
         <item itemvalue="Python.covid19_summary" />
         <item itemvalue="Python.ff" />
-        <item itemvalue="Python.vize" />
-        <item itemvalue="Python.buyuk_sayi" />
-        <item itemvalue="Python.beden_kitle_endeksi" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586804299994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="covid19 project add">
+      <created>1586804746353</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586804746353</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,26 +196,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="covid19 project add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="52" key="CommitChangelistDialog2" timestamp="1586804299783">
+    <state x="365" y="52" key="CommitChangelistDialog2" timestamp="1586804746055">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="365" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586804299783" />
-    <state width="1419" height="229" key="GridCell.Tab.0.bottom" timestamp="1586804653655">
+    <state x="365" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586804746055" />
+    <state width="1419" height="229" key="GridCell.Tab.0.bottom" timestamp="1586804987922">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586804653655" />
-    <state width="1419" height="229" key="GridCell.Tab.0.center" timestamp="1586804653653">
+    <state width="1419" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586804987922" />
+    <state width="1419" height="229" key="GridCell.Tab.0.center" timestamp="1586804987920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586804653653" />
-    <state width="1419" height="229" key="GridCell.Tab.0.left" timestamp="1586804653652">
+    <state width="1419" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586804987920" />
+    <state width="1419" height="229" key="GridCell.Tab.0.left" timestamp="1586804987918">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586804653652" />
-    <state width="1419" height="229" key="GridCell.Tab.0.right" timestamp="1586804653654">
+    <state width="1419" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586804987918" />
+    <state width="1419" height="229" key="GridCell.Tab.0.right" timestamp="1586804987921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586804653654" />
+    <state width="1419" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586804987921" />
     <state x="144" y="79" key="MergeDialog" timestamp="1586804180361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -218,10 +228,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586804121069" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586804311264">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586804757581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586804311264" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586804757581" />
     <state x="422" y="248" key="git4idea.merge.GitPullDialog" timestamp="1586804144400">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
