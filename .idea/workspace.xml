@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/covid19/covid19_confirmed.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_confirmed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covid19/covid19_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_deaths.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covid19/covid19_recovered.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_recovered.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19/covid19_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_summary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +32,19 @@
   <component name="ProjectId" id="1aUxP6e9wJqv90cLDBKSlMDmluy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/covid19" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.covid19_recovered">
+  <component name="RunManager" selected="Python.covid19_summary">
     <configuration name="covid19_confirmed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myfirstcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.covid19_recovered" />
         <item itemvalue="Python.covid19_summary" />
+        <item itemvalue="Python.covid19_recovered" />
         <item itemvalue="Python.covid19_deaths" />
         <item itemvalue="Python.covid19_confirmed" />
         <item itemvalue="Python.ff" />
@@ -206,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586805078980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="covid19 project add">
+      <created>1586807967708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586807967708</updated>
+    </task>
+    <task id="LOCAL-00007" summary="covid19 project add">
+      <created>1586808038075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586808038075</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,26 +228,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="covid19 project add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="52" key="CommitChangelistDialog2" timestamp="1586807967487">
+    <state x="365" y="52" key="CommitChangelistDialog2" timestamp="1586808037858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="365" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586807967487" />
-    <state width="1419" height="229" key="GridCell.Tab.0.bottom" timestamp="1586807943070">
+    <state x="365" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586808037858" />
+    <state width="1419" height="432" key="GridCell.Tab.0.bottom" timestamp="1589579201835">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586807943070" />
-    <state width="1419" height="229" key="GridCell.Tab.0.center" timestamp="1586807943068">
+    <state width="1419" height="432" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589579201835" />
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1587665869340" />
+    <state width="1419" height="432" key="GridCell.Tab.0.center" timestamp="1589579201833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586807943068" />
-    <state width="1419" height="229" key="GridCell.Tab.0.left" timestamp="1586807943066">
+    <state width="1419" height="432" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589579201833" />
+    <state width="1419" height="303" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1587665869339" />
+    <state width="1419" height="432" key="GridCell.Tab.0.left" timestamp="1589579201831">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586807943066" />
-    <state width="1419" height="229" key="GridCell.Tab.0.right" timestamp="1586807943069">
+    <state width="1419" height="432" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589579201831" />
+    <state width="1419" height="303" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1587665869338" />
+    <state width="1419" height="432" key="GridCell.Tab.0.right" timestamp="1589579201834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586807943069" />
+    <state width="1419" height="432" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589579201834" />
+    <state width="1419" height="303" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1587665869340" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1587665869344">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587664274901" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.23.1440.819@0.23.1440.819" timestamp="1587665869344" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1587665869342">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587664274898" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.23.1440.819@0.23.1440.819" timestamp="1587665869342" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1587665869341">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587664274895" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.23.1440.819@0.23.1440.819" timestamp="1587665869341" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1587665869343">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587664274899" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.23.1440.819@0.23.1440.819" timestamp="1587665869343" />
     <state x="144" y="79" key="MergeDialog" timestamp="1586804180361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -242,14 +280,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1586804195782" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1586804121069">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1589579185430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586804121069" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586807978522">
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589579185430" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586808047316">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586807978522" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586808047316" />
     <state x="422" y="248" key="git4idea.merge.GitPullDialog" timestamp="1586804144400">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
