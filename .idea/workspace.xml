@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1de052ba-8e8d-4db9-a768-9f449fd13151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sha256/hashfeed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sha256/ipfeed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid19/covid19_confirmed.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_confirmed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid19/covid19_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_deaths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid19/covid19_recovered.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_recovered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid19/covid19_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19/covid19_summary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +18,21 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="785" />
-  </component>
+  <component name="JupyterTrust" id="d4548bdf-5c2e-4c2b-838a-a6722adf0ba7" />
   <component name="ProjectId" id="1aUxP6e9wJqv90cLDBKSlMDmluy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,56 +41,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/covid19" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.covid19_summary">
-    <configuration name="covid19_confirmed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myfirstcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_confirmed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="covid19_deaths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myfirstcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_deaths.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ipfeed">
     <configuration name="covid19_recovered" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myfirstcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_recovered.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -120,6 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid19/covid19_summary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -129,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hashfeed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myfirstcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,13 +102,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sha256" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/ff.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sha256/hashfeed.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ipfeed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myfirstcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sha256" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sha256/ipfeed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sha256" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myfirstcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sha256" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sha256/sha256.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -152,14 +162,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ipfeed" />
+        <item itemvalue="Python.hashfeed" />
+        <item itemvalue="Python.sha256" />
         <item itemvalue="Python.covid19_summary" />
         <item itemvalue="Python.covid19_recovered" />
-        <item itemvalue="Python.covid19_deaths" />
-        <item itemvalue="Python.covid19_confirmed" />
-        <item itemvalue="Python.ff" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,6 +181,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556364113395</updated>
+      <workItem from="1597820186397" duration="17332000" />
+      <workItem from="1597912022232" duration="2895000" />
+      <workItem from="1598002814237" duration="7339000" />
+      <workItem from="1601139153470" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="covid19 project add">
       <created>1586804080461</created>
@@ -220,78 +235,86 @@
       <option name="project" value="LOCAL" />
       <updated>1586808038075</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="covid19 project add">
+      <created>1589579304992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589579304992</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="covid19 project add" />
     <option name="LAST_COMMIT_MESSAGE" value="covid19 project add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="52" key="CommitChangelistDialog2" timestamp="1586808037858">
+    <state x="365" y="51" key="CommitChangelistDialog2" timestamp="1589579304614">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="365" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586808037858" />
-    <state width="1419" height="432" key="GridCell.Tab.0.bottom" timestamp="1589579201835">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589579201835" />
-    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1587665869340" />
-    <state width="1419" height="432" key="GridCell.Tab.0.center" timestamp="1589579201833">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589579201833" />
-    <state width="1419" height="303" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1587665869339" />
-    <state width="1419" height="432" key="GridCell.Tab.0.left" timestamp="1589579201831">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589579201831" />
-    <state width="1419" height="303" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1587665869338" />
-    <state width="1419" height="432" key="GridCell.Tab.0.right" timestamp="1589579201834">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="432" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589579201834" />
-    <state width="1419" height="303" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1587665869340" />
-    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1587665869344">
+    <state x="365" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1589579304614" />
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom" timestamp="1598423301238">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587664274901" />
-    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.23.1440.819@0.23.1440.819" timestamp="1587665869344" />
-    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1587665869342">
+    <state width="1398" height="201" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597994408181" />
+    <state width="1398" height="261" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1598423301238" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center" timestamp="1598423301237">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587664274898" />
-    <state width="1419" height="303" key="GridCell.Tab.1.center/0.23.1440.819@0.23.1440.819" timestamp="1587665869342" />
-    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1587665869341">
+    <state width="1398" height="201" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597994408179" />
+    <state width="1398" height="261" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1598423301237" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left" timestamp="1598423301237">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587664274895" />
-    <state width="1419" height="303" key="GridCell.Tab.1.left/0.23.1440.819@0.23.1440.819" timestamp="1587665869341" />
-    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1587665869343">
+    <state width="1398" height="201" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597994408178" />
+    <state width="1398" height="261" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1598423301237" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right" timestamp="1598423301238">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587664274899" />
-    <state width="1419" height="303" key="GridCell.Tab.1.right/0.23.1440.819@0.23.1440.819" timestamp="1587665869343" />
-    <state x="144" y="79" key="MergeDialog" timestamp="1586804180361">
+    <state width="1398" height="201" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597994408180" />
+    <state width="1398" height="261" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1598423301238" />
+    <state width="1398" height="261" key="GridCell.Tab.1.bottom" timestamp="1598423301242">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597911994675" />
+    <state width="1398" height="261" key="GridCell.Tab.1.bottom/0.23.1440.819@0.23.1440.819" timestamp="1598423301242" />
+    <state width="1398" height="261" key="GridCell.Tab.1.center" timestamp="1598423301241">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1597911994673" />
+    <state width="1398" height="261" key="GridCell.Tab.1.center/0.23.1440.819@0.23.1440.819" timestamp="1598423301241" />
+    <state width="1398" height="261" key="GridCell.Tab.1.left" timestamp="1598423301240">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1597911994673" />
+    <state width="1398" height="261" key="GridCell.Tab.1.left/0.23.1440.819@0.23.1440.819" timestamp="1598423301240" />
+    <state width="1398" height="261" key="GridCell.Tab.1.right" timestamp="1598423301241">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1597911994674" />
+    <state width="1398" height="261" key="GridCell.Tab.1.right/0.23.1440.819@0.23.1440.819" timestamp="1598423301241" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1597835697285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1586804180361" />
-    <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1586804195782">
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1597835697285" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1589579316151">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1586804195782" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1589579185430">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589579316151" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1597911356728">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589579185430" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586808047316">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586808047316" />
-    <state x="422" y="248" key="git4idea.merge.GitPullDialog" timestamp="1586804144400">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="422" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1586804144400" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1597910320216" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.23.1440.819@0.23.1440.819" timestamp="1597911356728" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myfirstcode$ipfeed.coverage" NAME="ipfeed Coverage Results" MODIFIED="1598183498762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
+    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed.coverage" NAME="hashfeed Coverage Results" MODIFIED="1598123570779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
+    <SUITE FILE_PATH="coverage/myfirstcode$sha256.coverage" NAME="sha256 Coverage Results" MODIFIED="1597838716067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
   </component>
   <component name="masterDetails">
     <states>
