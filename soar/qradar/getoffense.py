@@ -31,7 +31,7 @@ thehive_headers = {
     'Content-Type': 'application/json',
 }
 
-r_qradar = requests.get(url=QRADAR_BASE_URL, params=qradar_headers, auth=HTTPBasicAuth('eser.solmaz', 'W32.Bugbear170'),verify=False)
+r_qradar = requests.get(url=QRADAR_BASE_URL, params=qradar_headers, auth=HTTPBasicAuth('eser.solmazxxx', 'passwd'),verify=False)
 
 
 n = 0
