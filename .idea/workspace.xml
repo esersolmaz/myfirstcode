@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de052ba-8e8d-4db9-a768-9f449fd13151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cti/domainfeed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cti/hashfeed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cti/ipfeed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cti/usomdomain.py" afterDir="false" />
+    <list default="true" id="1de052ba-8e8d-4db9-a768-9f449fd13151" name="Default Changelist" comment="covid19 project add">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myfirstcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myfirstcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sha256/hashfeed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sha256/ipfeed.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -168,9 +166,7 @@
       <list>
         <item itemvalue="Python.test" />
         <item itemvalue="Python.usomdomain" />
-        <item itemvalue="Python.ipfeed (1)" />
         <item itemvalue="Python.domainfeed" />
-        <item itemvalue="Python.hashfeed (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +194,9 @@
       <workItem from="1610574838789" duration="224000" />
       <workItem from="1610823194301" duration="316000" />
       <workItem from="1610825436427" duration="3394000" />
+      <workItem from="1641455283756" duration="626000" />
+      <workItem from="1641456861231" duration="55000" />
+      <workItem from="1643288242117" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="covid19 project add">
       <created>1586804080461</created>
@@ -268,6 +267,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="covid19 project add" />
     <option name="LAST_COMMIT_MESSAGE" value="covid19 project add" />
@@ -299,16 +309,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/myfirstcode$domainfeed.coverage" NAME="domainfeed Coverage Results" MODIFIED="1610573876235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed.coverage" NAME="hashfeed Coverage Results" MODIFIED="1598123570779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
-    <SUITE FILE_PATH="coverage/myfirstcode$ipfeed__1_.coverage" NAME="ipfeed (1) Coverage Results" MODIFIED="1610573892199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
     <SUITE FILE_PATH="coverage/myfirstcode$ipfeed.coverage" NAME="ipfeed Coverage Results" MODIFIED="1598183498762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
-    <SUITE FILE_PATH="coverage/myfirstcode$test.coverage" NAME="test Coverage Results" MODIFIED="1610835245559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
     <SUITE FILE_PATH="coverage/myfirstcode$hashfeed__1_.coverage" NAME="hashfeed (1) Coverage Results" MODIFIED="1610573859036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
     <SUITE FILE_PATH="coverage/myfirstcode$usomdomain.coverage" NAME="usomdomain Coverage Results" MODIFIED="1610828013445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$covid19_confirmed.coverage" NAME="covid19_confirmed Coverage Results" MODIFIED="1608401576766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covid19" />
-    <SUITE FILE_PATH="coverage/myfirstcode$sha256.coverage" NAME="sha256 Coverage Results" MODIFIED="1597838716067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
+    <SUITE FILE_PATH="coverage/myfirstcode$test.coverage" NAME="test Coverage Results" MODIFIED="1610835245559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$domainfeed.coverage" NAME="domainfeed Coverage Results" MODIFIED="1610573876235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
     <SUITE FILE_PATH="coverage/myfirstcode$qradar_ip_add.coverage" NAME="qradar_ip_add Coverage Results" MODIFIED="1610573348044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$covid19_confirmed.coverage" NAME="covid19_confirmed Coverage Results" MODIFIED="1608401576766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covid19" />
+    <SUITE FILE_PATH="coverage/myfirstcode$ipfeed__1_.coverage" NAME="ipfeed (1) Coverage Results" MODIFIED="1610573892199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed.coverage" NAME="hashfeed Coverage Results" MODIFIED="1598123570779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
+    <SUITE FILE_PATH="coverage/myfirstcode$sha256.coverage" NAME="sha256 Coverage Results" MODIFIED="1597838716067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
   </component>
   <component name="masterDetails">
     <states>
