@@ -1,0 +1,7 @@
+n = input("bir sayı giriniz:")
+nn = int(n+n)
+nnn = int(n+n+n)
+nnnn = int(n+n+n+n)
+nnnnn = int(n+n+n+n+n)
+n = int(n)
+print(n + nn + nnn + nnnn + nnnnn)
