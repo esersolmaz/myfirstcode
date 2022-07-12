@@ -1,0 +1,5 @@
+s = input('3 basamaklı sayısal bir yazı giriniz:')
+s = s.strip()
+result = (ord(s[0])-ord('0')) *100+ (ord(s[1])-ord('0')) *10+ (ord(s[2])-ord('0'))
+print(result)
+print(result * 2)
