@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1de052ba-8e8d-4db9-a768-9f449fd13151" name="Default Changelist" comment="covid19 project add">
-      <change afterPath="$PROJECT_DIR$/cdernegi/odev1/q4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdernegi/odev2/q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/icsel_deger/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/icsel_deger/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myfirstcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myfirstcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdernegi/ders1.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdernegi/ders1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdernegi/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdernegi/odev1/q1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdernegi/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdernegi/odev1/q2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdernegi/q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/cdernegi/odev1/q3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/eser.solmaz/PycharmProjects/myfirstcode/fintech/icsel_deger",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eser.solmaz\PycharmProjects\myfirstcode\fintech\icsel_deger" />
+      <recent name="C:\Users\eser.solmaz\PycharmProjects\myfirstcode\cti" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cdernegi/odev1" />
       <recent name="$PROJECT_DIR$/covid19" />
@@ -254,6 +267,9 @@
       <workItem from="1656954643357" duration="409000" />
       <workItem from="1656955096087" duration="18000" />
       <workItem from="1656955135757" duration="8583000" />
+      <workItem from="1673522626366" duration="88554000" />
+      <workItem from="1675342011318" duration="179000" />
+      <workItem from="1675342275772" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="covid19 project add">
       <created>1586804080461</created>
@@ -416,26 +432,26 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/myfirstcode$qradar_ip_add.coverage" NAME="qradar_ip_add Coverage Results" MODIFIED="1610573348044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$froto.coverage" NAME="froto Coverage Results" MODIFIED="1643289424880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fintech" />
-    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed.coverage" NAME="hashfeed Coverage Results" MODIFIED="1598123570779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
-    <SUITE FILE_PATH="coverage/myfirstcode$q2.coverage" NAME="q2 Coverage Results" MODIFIED="1657132856811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
-    <SUITE FILE_PATH="coverage/myfirstcode$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1643714782949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/myfirstcode$q3.coverage" NAME="q3 Coverage Results" MODIFIED="1657134751861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
-    <SUITE FILE_PATH="coverage/myfirstcode$covid19_confirmed.coverage" NAME="covid19_confirmed Coverage Results" MODIFIED="1608401576766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covid19" />
-    <SUITE FILE_PATH="coverage/myfirstcode$q4.coverage" NAME="q4 Coverage Results" MODIFIED="1657135229639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
-    <SUITE FILE_PATH="coverage/myfirstcode$froto2.coverage" NAME="froto2 Coverage Results" MODIFIED="1648498968156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fintech" />
-    <SUITE FILE_PATH="coverage/myfirstcode$ipfeed__1_.coverage" NAME="ipfeed (1) Coverage Results" MODIFIED="1610573892199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$ders1.coverage" NAME="ders1 Coverage Results" MODIFIED="1657127571238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
-    <SUITE FILE_PATH="coverage/myfirstcode$usomdomain.coverage" NAME="usomdomain Coverage Results" MODIFIED="1610828013445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$sha256.coverage" NAME="sha256 Coverage Results" MODIFIED="1597838716067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
     <SUITE FILE_PATH="coverage/myfirstcode$ipfeed.coverage" NAME="ipfeed Coverage Results" MODIFIED="1598183498762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
-    <SUITE FILE_PATH="coverage/myfirstcode$test.coverage" NAME="test Coverage Results" MODIFIED="1610835245559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed__1_.coverage" NAME="hashfeed (1) Coverage Results" MODIFIED="1610573859036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
-    <SUITE FILE_PATH="coverage/myfirstcode$q1__1_.coverage" NAME="q1 (1) Coverage Results" MODIFIED="1657627271334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi/odev2" />
+    <SUITE FILE_PATH="coverage/myfirstcode$qradar_ip_add.coverage" NAME="qradar_ip_add Coverage Results" MODIFIED="1610573348044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$sha256.coverage" NAME="sha256 Coverage Results" MODIFIED="1597838716067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
     <SUITE FILE_PATH="coverage/myfirstcode$ders2.coverage" NAME="ders2 Coverage Results" MODIFIED="1654707548370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
     <SUITE FILE_PATH="coverage/myfirstcode$domainfeed.coverage" NAME="domainfeed Coverage Results" MODIFIED="1610573876235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$ipfeed__1_.coverage" NAME="ipfeed (1) Coverage Results" MODIFIED="1610573892199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed__1_.coverage" NAME="hashfeed (1) Coverage Results" MODIFIED="1610573859036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$q3.coverage" NAME="q3 Coverage Results" MODIFIED="1657134751861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
+    <SUITE FILE_PATH="coverage/myfirstcode$q1__1_.coverage" NAME="q1 (1) Coverage Results" MODIFIED="1657627271334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi/odev2" />
+    <SUITE FILE_PATH="coverage/myfirstcode$test.coverage" NAME="test Coverage Results" MODIFIED="1610835245559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$ders1.coverage" NAME="ders1 Coverage Results" MODIFIED="1657127571238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
+    <SUITE FILE_PATH="coverage/myfirstcode$covid19_confirmed.coverage" NAME="covid19_confirmed Coverage Results" MODIFIED="1608401576766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/covid19" />
+    <SUITE FILE_PATH="coverage/myfirstcode$q2.coverage" NAME="q2 Coverage Results" MODIFIED="1657132856811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
+    <SUITE FILE_PATH="coverage/myfirstcode$usomdomain.coverage" NAME="usomdomain Coverage Results" MODIFIED="1610828013445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256/new" />
+    <SUITE FILE_PATH="coverage/myfirstcode$hashfeed.coverage" NAME="hashfeed Coverage Results" MODIFIED="1598123570779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sha256" />
+    <SUITE FILE_PATH="coverage/myfirstcode$froto2.coverage" NAME="froto2 Coverage Results" MODIFIED="1648498968156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fintech" />
+    <SUITE FILE_PATH="coverage/myfirstcode$q4.coverage" NAME="q4 Coverage Results" MODIFIED="1657135229639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi" />
     <SUITE FILE_PATH="coverage/myfirstcode$q1.coverage" NAME="q1 Coverage Results" MODIFIED="1657131965617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cdernegi/odev1" />
+    <SUITE FILE_PATH="coverage/myfirstcode$froto.coverage" NAME="froto Coverage Results" MODIFIED="1643289424880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fintech" />
+    <SUITE FILE_PATH="coverage/myfirstcode$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1643714782949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>
