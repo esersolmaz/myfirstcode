@@ -39,6 +39,8 @@ for hissekodu in my_list:
     #n= n+ 1
 
     print(dataget.info)
-    #fkorani = dataget.info['trailingPE']
-    #if fkorani > 10:
-    #    print (hissekodu,'- F/K :',dataget.info['trailingPE'])
+    fkorani = dataget.info['trailingPE']
+    pddd = dataget.info['priceToBook']
+    if fkorani < 10 and pddd >2:
+        print (hissekodu,'- F/K :',dataget.info['trailingPE'])
+        continue
