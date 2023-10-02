@@ -32,15 +32,16 @@ print('PD/FAVOK :',fdfavok)
 print('Öz Sermaye Karlılığı: ', ozsermayakarliligi)
 print('Temettü Oranı :', temettuorani)
 
-n = 0
-for hissekodu in my_list:
-    print(hissekodu)
-    dataget = yf.Ticker(hissekodu)
-    #n= n+ 1
 
-    print(dataget.info)
-    fkorani = dataget.info['trailingPE']
-    pddd = dataget.info['priceToBook']
-    if fkorani < 10 and pddd >2:
-        print (hissekodu,'- F/K :',dataget.info['trailingPE'])
-        continue
+for hissekodu in my_list:
+    try:
+        print(hissekodu)
+        dataget = yf.Ticker(hissekodu)
+        print(dataget.info)
+        fkorani = dataget.info['trailingPE']
+        pddd = dataget.info['priceToBook']
+        if fkorani < 10 and pddd >2:
+            print (hissekodu,'- F/K :',dataget.info['trailingPE'])
+            continue
+    except:
+        raise KeyError
