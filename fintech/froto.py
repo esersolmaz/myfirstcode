@@ -35,13 +35,13 @@ print('Temettü Oranı :', temettuorani)
 
 for hissekodu in my_list:
     try:
-        print(hissekodu)
+        #print(hissekodu)
         dataget = yf.Ticker(hissekodu)
-        print(dataget.info)
+        #print(dataget.info)
         fkorani = dataget.info['trailingPE']
         pddd = dataget.info['priceToBook']
-        if fkorani < 10 and pddd >2:
-            print (hissekodu,'- F/K :',dataget.info['trailingPE'])
-            continue
-    except:
-        raise KeyError
+        if fkorani < 10 and pddd <2:
+            print (hissekodu,'- F/K :',dataget.info['trailingPE'],'PD/DD :',pddd)
+
+    except Exception as e:
+        print(f'Error: {e}')
