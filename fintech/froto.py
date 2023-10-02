@@ -41,7 +41,8 @@ for hissekodu in my_list:
         fkorani = dataget.info['trailingPE']
         pddd = dataget.info['priceToBook']
         if fkorani < 10 and pddd <2:
-            print (hissekodu,'- F/K :',dataget.info['trailingPE'],'PD/DD :',pddd)
+            if ozsermayakarliligi > 1.5:
+                print (hissekodu,'- F/K :',dataget.info['trailingPE'],'PD/DD :',pddd)
 
     except Exception as e:
         print(f'Error: {e}')
